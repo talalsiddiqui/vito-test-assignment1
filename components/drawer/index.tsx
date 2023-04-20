@@ -1,8 +1,9 @@
 import { Drawer, Image, Typography } from 'antd';
+import { IDrawerProps } from './drawer';
 
 const { Title } = Typography;
 
-export default function CheckinDrawer({open, onClose, data}) {
+export default function CheckinDrawer({open, onClose, data}: IDrawerProps) {
   return (
     <Drawer
       title="Details"
