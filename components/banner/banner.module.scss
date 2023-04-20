@@ -1,0 +1,26 @@
+.banner {
+  background: #fff;
+  padding: 50px 40px;
+  width: 100%;
+  border-bottom: 1px solid #D9D9D9;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .description {
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+  
+    .checkinBtn {
+      padding: 4px 15px;
+      border: none;
+      color: #fff;
+      font-size: 14px;
+      border-radius: 2px;
+    }
+  }
+}
